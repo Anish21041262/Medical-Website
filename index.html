@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Clinica Multi-Purpose Medical HTML Template">
+    <meta name="keywords" content="clinica, Bootstrap, clinic, doctor, health, health care, hospital, medical, patient, pharmacy, surgeon, health template, medical template, appointment, stomatology ">
+    <meta name="author" content="ThemeAtelier">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Clinica Medical  Website</title>
+    <link rel="icon" href="fav.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="preloader-wrap">
+        <div class="loader"></div>
+    </div>
+    <header class="header-area header-area-v2 section-light">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-10 logo">
+                        <a href="#index"><img class="img-responsive" src="img/logo/logo-header-2.png" alt="logo"></a>
+                    </div>
+                    <div class="mainmenu-area hidden-xs text-right col-sm-9">
+                        <div class="mainmenu">
+                            <nav>
+                                <ul>
+                                    <li><a href="#index">Home</a>
+                                    </li>
+
+                                    <li><a href="#about_us">About Us</a>
+                                    </li>
+
+                                    <li><a href="#doctors">Doctors</a>
+                                    </li>
+                                    
+                                    <li><a href="#appointment">appointment</a></li>
+
+                                    <li><a href="#contact">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu-area visible-xs">
+            <div class="mean-container">
+                <div class="col-md-12">
+                    <div class="mobile-menu">
+                        <nav id="dropdown">
+                            <ul>
+                                <li><a href="#index">Home</a>
+                                </li>
+                                <li><a href="#doctors">Doctors</a>
+                                </li>
+                                <li><a href="#appointment">appointment</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ....................INDEX AREA START................................................ -->
+    <section data-stellar-background-ratio="0.5" class="hero hero-parallax pt100 pb100 section-blue" style="background-image: url('cardiologist-india.jpg')">
+        <div class="gredient-overlay opacity-6"></div>
+        <div id="index" class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-7 intro-text">
+                    <h1>We Care For Your Health</h1>
+                    <p>We try to provide fastest medical services with consultaion of our well experienced doctors </p> 
+                </div>
+                <div class="col-md-4 col-sm-5">
+                    <div class="quick-appoinment-form section-light">
+                        <h6 class="text-center"> Quick <span class="color-blue">Appointment</span></h6>
+                        <div id="erreomes"></div>
+                        <form action="#" id="appointmentsv2" method="post">
+                            <div class="form-group"> <input class="form-control" type="text" name="name" placeholder="Full Name" /></div>
+                            <div class="form-group"> <input class="form-control" id="appdate" name="date" placeholder="Date" type="text" /></div>
+                            <div class="form-group"> <input class="form-control" type="tel" name="mobile" placeholder="Phone Number" /></div>
+                            <div class="form-group"> <input class="form-control" type="email" name="email" placeholder="E-mail" /></div>
+                            <div class="form-group"><textarea class="form-control" cols="30" name="reason" rows="3" placeholder="Reason of Appointment..."></textarea></div>
+                            <div class="text-center form-button"> <button type="submit" class="btn btn-success" onclick="fn_appointment()">SUBMIT</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ....................INDEX AREA END................................................ -->
+
+    <!-- ....................ABOUT US AREA START................................................ -->
+    <section class="services-section section-light pt100 pb100">
+        <div id="about_us" class="container" onclick="smoothScroll">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title text-center mb40"> <img src="img/icons/icon-service-title.png" alt="" />
+                        <h2>Welcome To <span class="color-blue">Clinica</span></h2>
+                        <p>As we know there are a lot of websites operated now a days in medical field but our website ‘clinicia' has some special features that makes it different from the rest .Our website provides direct acces to whatsapp consultancy with doctors </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 single-service text-center"> <img src="img/icons/icon-medical-service.png" alt="" />
+                    <h6>Medical Services</h6>
+                    <p>We Try to provide 24/7 medical services. Our doctors are available and website too youu can reach to them through it also</p> <a class="section-service-btn" href="#about_us">See Our
+                        Services</a>
+                </div>
+                <div class="col-sm-4 single-service text-center"> <img src="img/icons/icon-emergency-case.png" alt="" />
+                    <h6>Emergency Case</h6>
+                    <p>We try to deal with Emergency case immediately and try to save patient live.For more suggestion click given button below</p> <a class="section-service-btn" href="#contact">Contact Now</a>
+                </div>
+                <div class="col-sm-4 single-service text-center"> <img src="img/icons/icon-find-doctors.png" alt="" />
+                    <h6>Doctors Timetable</h6>
+                    <p>To know more about doctors their qualifications,their avalibility,their suggestions. You can click below button</p> <a class="section-service-btn" href="#doctors">See The
+                        Times</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ....................ABOUT AREA END................................................ -->
+
+    <section class="services-section section-light pt100 pb100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title text-center mb40"> <img src="img/icons/icon-service-title.png" alt="" />
+                        <h2>Why Choose <span class="color-blue">Clinica</span></h2>
+                        <p>A comprehensive platform designed to revolutionize healthcare and empower individuals with vital information and services.
+                            We prioritize your privacy and security above all else. Our website adheres to the strictest industry standards to safeguard your personal information, ensuring that your data remains confidential and protected.
+                            Explore our medical website today and embark on a journey towards a healthier, happier life.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 single-service-box">
+                    <h6>Easy Appointments</h6>
+                    <p>To make an appointment is very easy.It is not as difficult because you have to just enter the basic details  like date of appointment,your name,reason for appointment,email  etc
+                    </p> <a href="#">Learn More</a>
+                </div>
+                <div class="col-sm-6 single-service-box">
+                    <h6>24/7 Availabiity of Doctors</h6>
+                    <p>Our Doctors and nurses are avilable 24/7 for the emergency.So If an emergency occurs it would be takled very eaisly by our doctors.Patients are given treatment treatment with minimum costs. 
+                    </p> <a href="#">Learn More</a>
+                </div>
+                <div class="col-sm-6 single-service-box">
+                    <h6>Regular checks</h6>
+                    <p>Regular checkups are provided to patients. They are provided with the full plan of chekup. Regular checkups are provided to them twice a year.
+                    </p> <a href="#">Learn More</a>
+                </div>
+                <div class="col-sm-6 single-service-box">
+                    <h6>Pharmaceutical Advice</h6>
+                    <p>Pharmaceutical advices they can get from our doctors anytime.  
+                    </p> <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ....................DOCTOR AREA START................................................ -->
+    <section class="best-doctors section-gray pt100 pb100">
+        <div class="container">
+            <div id="doctors" class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title text-center mb40"> <img src="img/icons/icon-service-title.png" alt="" />
+                        <h2>Meet Our <span class="color-blue">Doctors</span></h2>
+                        <p>At Clinica, we take pride in our team of highly skilled and compassionate doctors who are dedicated to providing exceptional healthcare services to our patients.
+                            We are honored to have such an exceptional team of doctors at Clinica. Their unwavering commitment to medical excellence, combined with their genuine compassion for patients, sets them apart as healthcare providers.</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="row grid">
+                <div class="col-sm-4 col-xs-12 grid-item">
+                    <div class="bestdoctor-box-v2 section-light"> <img src="img/doctors/doctorsv2-1.jpg" alt="" class="img-full" />
+                        <div class="bestdoctor-info text-center">
+                            <a href="#doctors">
+                                <h6>John David</h6>
+                            </a>
+                            <p>Cardiologist</p> 
+                        </div>
+                        <div class="best-doctor-footer section-blue">
+                            <div class="bestd-list-item">Experience<br><span>15 Years</span></div>
+                            <div class="bestd-list-item">Office<br><span>Office 112, Hall A</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 grid-item">
+                    <div class="bestdoctor-box-v2 section-light"> <img src="img/doctors/doctorsv2-2.jpg" alt="" class="img-full" />
+                        <div class="bestdoctor-info text-center">
+                            <a href="javascript:fn_scroll('#doctors')">
+                                <h6>Robert Brown</h6>
+                            </a>
+                            <p>Gynecologist</p> 
+                        </div>
+                        <div class="best-doctor-footer section-blue">
+                            <div class="bestd-list-item">Experience<br><span>10 Years</span></div>
+                            <div class="bestd-list-item">Office<br><span>Office 112, Hall B</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 grid-item">
+                    <div class="bestdoctor-box-v2 section-light"> <img src="img/doctors/doctorsv2-3.jpg" alt="" class="img-full" />
+                        <div class="bestdoctor-info text-center">
+                            <a href="javascript:fn_scroll('#doctors')">
+                                <h6>ANNA SMITH</h6>
+                            </a>
+                            <p>Nurse</p> 
+                        </div>
+                        <div class="best-doctor-footer section-blue">
+                            <div class="bestd-list-item">Experience<br><span>20 Years</span></div>
+                            <div class="bestd-list-item">Office<br><span>Office 112, Hall D</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center clearfix mt50"> <a href="#doctors" class="primary-btn" >View All Doctors</a>
+            </div>
+        </div>
+    </section>
+    <!-- ....................DOCTOR AREA END................................................ -->
+
+    <!-- ....................APPOINTMENT AREA START................................................ -->
+    <section class="appoinment-section section-light pt100 pb100">
+        <div id="appointment" class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title text-center mb40"> <img src="img/icons/icon-appoinment.png" alt="" />
+                        <h2 class="color-blue">Making an Appointments</h2>
+                    <p>Say goodbye to long queues and waiting hours in the clinic,
+                        With just a few clicks, your appointment is quick.
+                        From the comfort of your home, schedule your consultation,
+                        Choose your preferred doctor with ease and without hesitation.
+                        No need to worry about travel or parking space,
+                        Our digital appointments bring healthcare to your embrace.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="big-forms">
+                    <div id="erreomes"></div>
+                    <form action="" id="appointments" method="post">
+                        <div class="form-group col-sm-6"> <label for="first-name">First Name <span>*</span></label> <input placeholder="Type your full name..." type="text" class="form-control" name="first_name" id="first-name"></div>
+                        <div class="form-group col-sm-6">
+                            <div class="col-sm-7 xs-padding-none"> <label for="birth-date">Birth Date <span>*</span></label> <input class="form-control" id="birth_date" name="birth_date" type="text" /></div>
+                            <div class="col-sm-5 radio xs-padding-none"> <input id="male" value="Mail" name="gender" type="radio" checked> <label for="male" class="radio-label">Male</label> <input id="female" value="Female" name="gender" type="radio"> <label for="female" class="radio-label">Female</label></div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="form-group col-sm-6"> <label for="your-mail">E-mail <span>*</span></label> <input placeholder="Type your e-mail address..." name="your_mail" type="text" class="form-control" id="your-mail"></div>
+                        <div class="form-group col-sm-6"> <label for="your-phone">Number <span>*</span></label> <input placeholder="Phone Number " type="text" class="form-control" name="your_phone" id="your-phone"></div>
+                        <div class="form-group col-sm-12"> <label for="your-message">Message <span>*</span></label><textarea id="your-message" name="your_message" class="form-control" cols="30" rows="10" placeholder="Type your message..."></textarea></div>
+                        <div class="col-sm-12">
+                            <div class="loader-img2"> </div> <button type="submit" class="btn-mat"  onclick="fn_appointment_1()">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ....................APOINTMENT AREA END................................................ -->
+
+    <!-- ....................CONTACT AREA START................................................ -->
+    <section class="contact-section section-light pt100 pb100">
+        <div class="container">
+            <div id="contact" class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title text-center mb40"> <img src="img/icons/icon-whychoosev2-title.png" alt="" />
+                        <h2 class="color-blue">Contact US</h2>
+                        <p>Have a question or need assistance? Contact our dedicated team today.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="big-forms">
+                    <div id="erreomes"></div>
+                    <form id="contactform" action="https://themeatelier.net/site-templates/clinica/php/contactform.php" method="post">
+                        <div class="form-group col-sm-6"> <label for="first-name">First Name <span>*</span></label> <input placeholder="Type your first name..." type="text" class="form-control" name="firstName" id="first-name"></div>
+                        <div class="form-group col-sm-6"> <label for="last-name">Last Name <span>*</span></label> <input placeholder="Type your Last name..." type="text" class="form-control" name="lastName" id="last-name"></div>
+                        <div class="form-group col-sm-6"> <label for="your-mail">E-mail <span>*</span></label> <input placeholder="Type your e-mail address..." type="text" class="form-control" name="your_mail" id="your-mail"></div>
+                        <div class="form-group col-sm-6"> <label for="your-topic">Topic <span>*</span></label> <select class="form-control" name="topic" id="your-topic"><option value="">Select your topic...</option><option value="Help Desk">Help desk</option><option value="Patients care">Patients care</option><option value="Other">Other</option> </select></div>
+                        <div
+                            class="form-group col-sm-12"> <label for="your-message">Message <span>*</span></label><textarea name="your_message" id="your-message" class="form-control" cols="30" rows="10" placeholder="Type your message..."></textarea>
+                     
+                     <button type="submit" class="btn-mat" onclick="fn_appointment_2()">Send Message</button></div>
+                    </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ....................CONTACT AREA END................................................ -->
+
+
+    <section class="contact-info section-blue pt100 pb100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-8">
+                    <h2>Contact INFO & Location</h2>
+                    <div class="col-sm-5 xs-padding-none">
+                        <ul class="contact-detail">
+                            <li><i class="fa fa-location-arrow"></i>C block  Omax Riveria <br>Rudrapur Uttarakhand</li>
+                            <li><i class="fa fa-phone"></i>7278956054<br>1.800.458.556</li>
+                            <li><i class="fa fa-envelope"></i><a href="mailto:info@clicawebsite.com">info@clicawebsite.com</a><br><a href="mailto:contact@clicawebsit.com">contact@clicawebsit.com </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-7 xs-padding-none">
+                       
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-4 opening-hours-wrap">
+                    <h2>Opening Hours</h2>
+                    <ul class="opening-hours">
+                        <li>Monday - Friday <span class="pull-right">8.00 AM - 5.00 PM</span></li>
+                        <li>Saturday <span class="pull-right">9.30 AM - 5.30 PM</span></li>
+                        <li>Sunday <span class="pull-right">9.30 AM - 3.00 PM</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-widget section-gray pt100 pb100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="single-footer-widget">
+                        <h6>About Clinica</h6>
+                        <p>A comprehensive platform designed to revolutionize healthcare and empower individuals with vital information and services.
+                            We prioritize your privacy and security above all else. Our website adheres to the strictest industry standards to safeguard your personal information, ensuring that your data remains confidential and protected.
+                            Explore our medical website today and embark on a journey towards a healthier, happier life.</p>
+                        <p>System, and expound the actual teachings of ello the great explorer of the truth, the master-builder of.</p>
+                        <ul class="footer-social">
+                            <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://wa.me/7037190526"><i class="fa fa-whatsapp"></i>
+                            </a></li>
+                            <li><a href="https://in.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-footer-widget">
+                        <h6>Medical Departments</h6>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> General Practice</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Cardiology</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Pediatrics</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Diabetes Care</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Ultrasound Echocardiogram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-footer-widget">
+                        <h6>Latest Health Tips</h6>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Nutritional Personal
+                                    Consultation</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Discoveries offer a new
+                                    explanation for diabetes</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Center for Medical Technology </a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-chevron-circle-right"></i> New study links lutein with eye
+                                    health benefits</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Pets may reduce risk of heart
+                                    disease</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ....................FOOTER AREA START................................................ -->
+    <footer class="footer section-dark pt30 pb30">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Copyright &copy; <a href="#about_us" onclick="smoothScroll">Clinica</a> 2023. All rights reserved.<a href="#"></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ....................FOOTER AREA END................................................ -->
+
+
+    <!-- <div class="scroll-to-up hidden-xs">
+        <div class="scrollup"> <i class="fa fa-caret-up"></i></div>
+    </div> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky-kit.min.js"></script>
+    <script type="text/javascript" src="js/jquery.meanmenu.js"></script>
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="js/YouTubePopUp.jquery.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/gmap3.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+<script>
+    function fn_appointment() {
+        console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&7")
+        let name = $('#appointmentsv2').find('input[name="name"]').val()
+        let date = $('#appointmentsv2').find('input[name="date"]').val()
+        let mobile = $('#appointmentsv2').find('input[name="mobile"]').val()
+        let email = $('#appointmentsv2').find('input[name="email"]').val()
+        let reason = $('#appointmentsv2').find('textarea[name="reason"]').val()
+        console.log(reason);
+        let text =
+            `Hi there, My name is ${name}. Here my mobile no. ${mobile} and email id ${email} and i want appointment for this certain reason ${reason}.`;
+        console.log(text)
+        var win = window.open(`https://wa.me/7037190526?text=${text}`, '_blank');
+    }
+    function fn_appointment_1()
+    {
+        console.log('backhand');
+        let name = $('#appointments').find('input[name="first_name"]').val();
+        let date=$('#appointments').find('input[name="birth_date"]').val();
+        let m_f=$('#appointments').find('input[name="gender"]').val();
+        let your_mail=$('#appointments').find('input[name="your_mail"]').val()
+        let your_phone=$('#appointments').find('input[name="your_phone"]').val()
+        let your_message=$('#appointments').find('textarea[name="your_message"]').val()
+        let text_1=`Hi there  my name is ${name} Date is ${date} gender is ${m_f} Email is ${your_mail} Phone number is ${your_phone} message is ${your_message}` 
+        var win=window.open(`https://wa.me/7037190526?text=${text_1}`, '_blank')
+        console.log(text);
+    }
+    
+    function  fn_appointment_2()
+    {
+        console.log("Backhand");
+        let f = $('#contactform').find('input[name="firstName"]').val();
+        let l = $('#contactform').find('input[name="lastName"]').val();
+        let c = $('#contactform').find('input[name="your_mail"]').val();
+        let t = $('#contactform').find('select[name="topic"]').val();
+        let m = $('#contactform').find('textarea[name="your_message"]').val();
+        
+        
+        let text_2=`Hi there my name is ${f} last name is ${l} Email is ${c} topic is ${t} Message is ${m}`;
+        var win=window.open(`https://wa.me/7037190526?text=${text_2}`, '_blank')
+    }
+
+    function smoothScroll(){
+    document.querySelector('#about_us').scrollIntoView({
+        behavior: 'smooth'
+    });
+}
+</script>
+</html>
